@@ -12,12 +12,12 @@ import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 
 const About = () => {
     return (
-        <div className="container bg-success">
+        <div className="container bg-dark ">
         <div  style={{marginTop:"250px"}}>
 <div className="row" >
 
 <div className="col-6"> 
-            <div class="card card-fluid author py-5" style={{width: "28rem" ,height:"600px"}}>
+            <div class="card card-fluid author py-5" style={{width: "28rem" ,height:"600px",borderRadius:"50px"}}>
          <div className="d-flex">
          <img style={{width: "18rem" }} src={one} className="card-img-top " alt="..."/>
             <div class="card-body">
@@ -52,7 +52,7 @@ const About = () => {
          
 </div>
 <div className="col-6 d-flex justify-content-end">
-            <div class="card author"  style={{width: "18rem"}}>
+            <div class="card author"  style={{width: "18rem",borderRadius:"50px"}}>
            <div className="d-flex">
            <div class="card-body">
             <h5 class="card-title">Managing Director</h5>
@@ -79,7 +79,7 @@ const About = () => {
 <div className="row">
 
 <div className="col-6">
-<div class="card author "  style={{width: "28rem"}}>
+<div class="card author "  style={{width: "28rem",borderRadius:"50px"}}>
            <div  className="d-flex">
            <img style={{width: "18rem"}} src={two} className="card-img-top " alt="..."/>
             <div class="card-body">
@@ -110,7 +110,7 @@ const About = () => {
          
 </div>
 <div className="col-6 d-flex justify-content-end ">
-<div className="card author" style={{width: "18rem"}}>
+<div className="card author" style={{width: "18rem",borderRadius:"50px"}}>
 <div className="d-flex">
 <div class="card-body">
 <h5 class="card-title">Chairman</h5>

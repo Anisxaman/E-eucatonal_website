@@ -26,12 +26,12 @@ const Home = () => {
 
 
     const useHandler=()=>{
-        history.push("/services/mathcourse");
+        history.push("/services");
     }
 
 console.log(data);
     //----------------------- main home component where contain three child component-------------------
-const getData=data.slice(0,4);
+const getData=data.slice(0,5);
     return (
         <>
            <Title></Title>

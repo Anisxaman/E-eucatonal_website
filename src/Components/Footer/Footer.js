@@ -19,8 +19,8 @@ const Footer = () => {
 
                                 <Link to="https://www.facebook.com/anishuzzaman"><FontAwesomeIcon  className="icon" icon={faFacebook}></FontAwesomeIcon></Link>
                                 <Link to="https://www.facebook.com/anishuzzaman"><FontAwesomeIcon className="icon" icon={faYoutube}></FontAwesomeIcon></Link>
-                                <Link to="https://www.facebook.com/anishuzzaman"><FontAwesomeIcon className="icon" icon={faInstagram}></FontAwesomeIcon></Link>
-                                <a href="https://www.facebook.com/anishuzzaman"><FontAwesomeIcon className="icon" icon={faTwitter}></FontAwesomeIcon></a>
+                                <Link to="/facebook.com/anishuzzaman"><FontAwesomeIcon className="icon" icon={faInstagram}></FontAwesomeIcon></Link>
+                                <a href="https://www.facebook.com/anishuzzaman"  target="_blank"  rel="noopener noreferrer"><FontAwesomeIcon className="icon" icon={faTwitter}></FontAwesomeIcon></a>
                     
                                 <p className='text-white'>copyright &copy; 2021 Anishuzzaman</p>
                                 
