@@ -28,7 +28,7 @@ const Title = () => {
                                     <div>
                                         <p className="p-2 text-center"><small>Build skills with courses, certificates, and degrees online from world-class universities and companies  </small></p>
                                     </div>
-                                    <Butto variant="text">Text</Butto>
+                                    {/* <Butto variant="text">Text</Butto> */}
 
                                     <div className="text-center mb-5">
                                     <button type="button" style={{borderRadius:"10px"}} class="btn btn-danger me-3 fs-3 px-4 " onClick={()=>handleClick("/student")}>Join for Free</button>
